@@ -7,6 +7,32 @@
   pointer-events: none;
 }
 
+.box{
+  height:35px;
+  width:35px;
+padding: 5px;
+  background-color:brown;
+  margin: 6px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s ease;
+}
+
+.box:hover{
+  transform: scale(0.9,0.9);
+  background-color:black;
+  cursor: pointer;
+}
+
+.row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
